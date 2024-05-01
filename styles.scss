@@ -1,0 +1,16 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Ensures no scroll bars */
+}
+
+body {
+    background-image: url('assets/field23.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* Additional background properties if needed */
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

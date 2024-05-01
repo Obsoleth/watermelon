@@ -1,0 +1,153 @@
+
+:host {
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Ensures no scroll bars */
+    background-image: url('../assets/field23.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* Additional background properties if needed */
+}
+
+imgContainer {
+  object-fit: fill;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 20px;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #ffcc00, #ff5500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glitter 1.5s ease-in-out infinite;
+    text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff5500, 0 0 40px #ff5500, 0 0 70px #ff5500;
+}
+@keyframes glitter {
+    0% {
+        text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff5500, 0 0 40px #ff5500, 0 0 70px #ff5500;
+    }
+    50% {
+        text-shadow: 0 0 30px #ffcc00, 0 0 40px #ff5500, 0 0 50px #ff5500, 0 0 90px #ff5500;
+    }
+    100% {
+        text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff5500, 0 0 40px #ff5500, 0 0 70px #ff5500;
+    }
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h5 {
+    font-size: 1.4rem;
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 10px;
+    color: #ffcc00;
+}
+
+.card {
+    border:#0839fc 2px solid;
+    border-radius: 10px;
+    background-color: #0839fc;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#roty {
+    width: 100%;
+    overflow: hidden;
+    margin: 50px auto;
+    background: transparent;
+}
+.photobanner {
+	height: 220px;
+	width: 8640px;
+	margin-bottom: 80px;
+}
+
+.first {
+	-webkit-animation: bannermove 20s linear infinite;
+	   -moz-animation: bannermove 20s linear infinite;
+	    -ms-animation: bannermove 20s linear infinite;
+	     -o-animation: bannermove 20s linear infinite;
+	        animation: bannermove 20s linear infinite;
+}
+@keyframes "bannermove" {
+    0% {
+       margin-left: 0px;
+    }
+    100% {
+       margin-left: -5746px;
+    }
+   
+   }
+   
+   @-moz-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -5746px;
+    }
+   
+   }
+   
+   @-webkit-keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -5746px;
+    }
+   
+   }
+   
+   @-ms-keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -5746px;
+    }
+   
+   }
+   
+   @-o-keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -5746px;
+    }
+   
+   }
+   .photobanner {
+       height: 242px;
+       width: 8640px;
+       margin-bottom: 80px;
+   }
+   
+   .photobanner img {
+       -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+       -ms-transition: all 1s ease;
+       transition: all 1s ease;
+   }
